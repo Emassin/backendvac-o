@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link href=".\assets\css\Estilos.css" type="text/css" rel="stylesheet">
+      <title>Argentinian's Eyes</title>
+      <link rel="shortcut icon" href="favicon.ico"/>
+</head>
+<body>
+  <header class="header" id="myHeader">
+  <a href="home.php">
+  <img class="logo" src="Sol_de_Mayo_Bandera_Argentina.png" alt="Home" title="Home">
+  </a>
+  </header>
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="https://www.youtube.com/channel/UC0IO6CgdqWv3rmgclp4KvHA/about" target="_blank"><img src="YouTube logo.png" alt="YouTube" title="YouTube" class="YT"></a>
+    <a href="https://www.twitch.tv/emanuelargentinianseyes" target="_blank"><img src="twitch-logo-png-1855.png" alt="Twitch" title="Twitch" class="twitch"></a>
+    <a href="https://www.patreon.com/Argentinian_s_Eyes" target="_blank"><img src="pngwing.com.png" alt="Patreon" title="Patreon" class="pat"></a>
+    <a href="tienda.html"><img src="quiosco.png" alt="Store" title="Store" class="store" style="height: 80px;"></a>
+    <a href="./About.html">About</a>
+</div>
+<div id="main">
+<button class="openbtn" id="openbtn" onclick="openNav()">&#9776; </button>
+</div>
+
+<div class="about-section">
+  <h1>Meet the team</h1>
+  <p>The aim of this webpage and the related social media is to let you all learn something new as regards Argentina and its culture every time you visit them.
+  <br>
+  We'll be uploading videos and blog entries to keep you up to date with everithing that happens or has already happened in the Argentinian history.
+</p>
+  <p>Feel free to send your e-mail or message through our social media accounts if you want to suggest any topic or have any doubt that we might be able to help you with.</p>
+</div>
+<div class="bodyextra">
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://ualr.edu/studentaffairs/files/2020/01/blank-picture-holder.png" alt="Emanuel" style="width:100%">
+      <br>
+      <div class="container">
+        <h2>Emanuel Massin</h2>
+      <br>
+        <p class="title">CEO & Founder</p>
+        <p>Student of English Language Teaching at the Ángel Cárcano institute of Reconquista and active learner of web programming</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="Rocky.jpeg" alt="Rocky" style="width:100%">
+      <div class="container">
+        <br>
+        <h2>Rocky</h2>
+        <br>
+        <p class="title">Psychlogical support</p>
+        <br>
+        <p>Taking a stroll every now and then helps me keep fit and concentrated</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="Milo.jpeg" alt="Milo" style="width:100%">
+      <br>
+      <div class="container">
+        <h2>Milo</h2>
+        <br>
+        <p class="title">Psychological support</p>
+        <br>
+        <p>Let me have a nap...</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<footer class="footerextra">
+<h3>  massinemanuel@gmail.com <a href="https://www.linkedin.com/in/emanuel-mp/" target="_blank">LinkedIn</a> <a href="https://www.instagram.com/emassin_p/" target="_blank">Instagram</a></h3>
+<br>
+<p>Powered by Potrero Digital</p>
+</footer>
+</body>
+<script>
+function openNav() {
+
+document.getElementById("mySidebar").style.width = "250px";
+document.getElementById("main").style.marginLeft = "250px";
+document.getElementById("openbtn").className= "inactive";
+}
+
+function closeNav() {
+document.getElementById("mySidebar").style.width = "0";
+document.getElementById("main").style.marginLeft= "0";
+document.getElementById("openbtn").className= "openbtn";
+}
+
+</script>
